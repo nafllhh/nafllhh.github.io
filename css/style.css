@@ -51,6 +51,7 @@ div.flexx {
 /* make disappear in specify size */
 @media all and (max-width: 852px) {
   img.circbox { display: none; }
+	
 
 }
 @media all and (max-width: 750px) {
@@ -60,6 +61,7 @@ div.flexx {
   img.user {float: left}
 }
 @media all and (min-width: 700px) {
+	.side-menu { width: 120px; }
   img.h-img {width: 100px;}
 }
 
@@ -114,7 +116,7 @@ a {
   }
   .hero-img {
     background-image:linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)), url(114.png);
+    rgba(0, 0, 0, 0.5)), url(blank.png);
     filter: opacity(94%);
     height: 50%;
     background-position: center;
@@ -164,7 +166,7 @@ a {
     /* background-image: url(114.jpg); */
     position: sticky;
     float:right;
-    width: 120px;
+    width: 90px;
     height: 322px;
     background-color: #729FCA ;
     border-bottom-left-radius: 0px;
