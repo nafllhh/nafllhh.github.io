@@ -1,6 +1,8 @@
-function show (a,b){
-  a+b;
-  console.log(a+"+"+b+" = "+a+b);
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
 }
-var v=20,c=10;
-show (v,c);
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
