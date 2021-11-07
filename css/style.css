@@ -26,6 +26,12 @@ h1.center {
   color: #191C21;
   
 }
+.flexy > div a{
+  color: #181B21;
+}
+.flexy > div a:hover {
+  color: #212737;
+}
 .flexo {
   display: flex;
 } 
@@ -141,6 +147,13 @@ a {
   .intex { 
     padding:20px;
     color: #fff ;
+
+  }
+  .intex > h1.center {
+    /* bla */
+  }
+  .intex > p.vim{
+    color:#ABB2BF;
 
   }
   h2.center{
