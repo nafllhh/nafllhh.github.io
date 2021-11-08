@@ -256,6 +256,7 @@ footer {
   color: white;
   text-align: center;
   padding:20px;
+  bottom: 0%;
   background-color: #181B21;
   margin-top:  4px;
 }
@@ -305,14 +306,14 @@ footer {
   transition: margin-left .5s;
   padding: 20px;
 }
-#myInput {
+#iinput {
   background-image: url('/css/searchicon.png'); /* Add a search icon to input */
   background-position: 10px 12px; /* Position the search icon */
   background-repeat: no-repeat; /* Do not repeat the icon image */
   width: 100%; /* Full-width */
   font-size: 16px; /* Increase font-size */
   padding: 12px 20px 12px 40px; /* Add some padding */
-  border: 1px solid #ddd; /* Add a grey border */
+  border: 0px solid #ddd; /* Add a grey border */
   margin-bottom: 12px; /* Add some space below the input */
 }
 
@@ -345,8 +346,12 @@ footer {
   color:#141414; /* Add a hover effect to all links, except for headers */
 }
 input {
-  margin: 13px 12px;
-  padding: 16px 12px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  overflow: hidden;
+  padding: 16px;
+  /* width: 100%; */
   background-color: #181B21;
   color: #729FCF;
   outline: none; 
