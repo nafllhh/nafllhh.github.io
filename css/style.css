@@ -22,7 +22,7 @@ h1.center {
   padding: 20px;
   font-size: 19px;
 }
-.flexy > div h1:hover {
+.flexy > ul div h1:hover {
   color: #191C21;
   
 }
@@ -48,6 +48,7 @@ div.flexx {
   color: #729FCA;
   background-color: #181B21;
 }
+div.flexx >
 .circbox {
   float: right;
   width: 270px;
@@ -55,22 +56,6 @@ div.flexx {
   padding: 12px 17px;
 }
 /* make disappear in specify size */
-@media all and (max-width: 852px) {
-  img.circbox { display: none; }
-	
-
-}
-@media all and (max-width: 750px) {
-  p.user-text {display: none;}
-}
-@media all and (min-width: 766px) {
-  img.user {float: left}
-}
-@media all and (min-width: 700px) {
-	.side-menu { width: 120px; }
-  img.h-img {width: 100px;}
-}
-
 a {
   color: #FFFFFF;
   /* disable underline */
@@ -152,7 +137,7 @@ a {
   .intex > h1.center {
     /* bla */
   }
-  .intex > p.vim{
+  .intex > p.ctext{
     color:#ABB2BF;
 
   }
@@ -320,8 +305,53 @@ footer {
   transition: margin-left .5s;
   padding: 20px;
 }
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  display: flex;
+  flex-direction:column;
+  padding: 0;
+  margin: 0;border-radius: 20px;
+  background-color: #729FCA;
+  color: #272B33;
+  margin: 14px;
+  padding: 20px;
+  font-size: 19px;
+}
+
+#myUL li a {
+  /* border: 1px solid #ddd; /* Add a border to all links */ */
+  margin-top: -1px; /* Prevent double borders */
+  /* background-color: #f6f6f6; /* Grey background color */ */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a:hover:not(.header) {
+  color:#141414; /* Add a hover effect to all links, except for headers */
+}
+input {
+  margin: 13px 12px;
+  padding: 16px 12px;
+  background-color: #181B21;
+  color: #729FCF;
+  outline: none; 
+  border-width: 3px;
+  border-style:solid;
+  border-color: #729FCF;
+  border-radius: 10px;
 }
