@@ -6,7 +6,7 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 function search() {
-var input, filter, ul, li, a, i, txtValue;
+  var input, filter, ul, li, a, i, txtValue;
   input = document.getElementById('input');
   filter = input.value.toUpperCase();
   ul = document.getElementById("myUL");
@@ -21,4 +21,4 @@ var input, filter, ul, li, a, i, txtValue;
       li[i].style.display = "none";
     }
   }
-} 
+}
