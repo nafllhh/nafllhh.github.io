@@ -2,17 +2,23 @@
   img.user {float: left}
 }
 @media all and (min-width: 700px) {
-	.side-menu { width: 120px; }
-  img.h-img {width: 100px;}
+	.side-menu {
+          width: 120px;
+          height: 290px;
+        }
+  img.h-img {width: 170px;}
 }
 
-
+@media all and (orientation:portait){
+    
+    
+}
 @media all and (max-width: 750px) {
   p.user-text {display: none;}
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
+  .sidenav {padding-top: 15px; }
   .sidenav a {font-size: 18px;}
 }
 

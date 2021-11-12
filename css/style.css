@@ -139,6 +139,14 @@ a {
   }
   .intex > p.ctext{
     color:#ABB2BF;
+    font-size: 10px;
+    font-family: cursive;
+
+  }
+  .flexy > p.ctext{
+    color:#ABB2BF;
+    font-size: 10px;
+    font-family: cursive;
 
   }
   h2.center{
@@ -165,7 +173,7 @@ a {
     position: sticky;
     float:right;
     width: 100px;
-    height: 322px;
+    height: 321px;
     background-color: #729FCA ;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 50px;
