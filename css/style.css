@@ -165,8 +165,8 @@ a {
   }
   img.center {
     /* how to center */
-    display:block;
-    margin-left: auto;
+    /* display:block; */
+    /* margin-left: auto; */
     margin-right: auto;
     /* end */
     padding: 14px 16px;
