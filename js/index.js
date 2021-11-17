@@ -22,3 +22,8 @@ function search() {
     }
   }
 }
+$('a.mult').click(function(e){
+  e.preventDefault();
+  window.open('https://suckless.org/');
+  window.open('https://github.com/siduck76/st');
+});
