@@ -371,7 +371,7 @@ footer {
   font-weight: bold;
   color: white;
 }
-#input {
+#formm {
   /* display: block; */
   /* margin-left: auto; */
   /* margin-right: auto; */
@@ -383,6 +383,6 @@ footer {
   outline: none; 
   border-width: 0px;
   border-style:solid;
-  border-color: #729FCF;
+  /* border-color: #729FCF; */
   /* border-radius: 10px; */
 }
