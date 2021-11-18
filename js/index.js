@@ -7,7 +7,7 @@ function closeNav() {
 }
 function search() {
   var input, filter, ul, li, a, i, txtValue;
-  input = document.getElementById('input');
+  input = document.getElementById('formm');
   filter = input.value.toUpperCase();
   ul = document.getElementById("myUL");
   li = ul.getElementsByTagName('li');
