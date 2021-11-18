@@ -1,6 +1,12 @@
 @media all and (min-width: 766px) {
   img.user {float: left}
 }
+@media all and (max-width: 470px){
+ input{
+  width: 100%;
+ }
+
+}
 @media all and (min-width: 700px) {
 	.side-menu {
           width: 120px;
@@ -10,6 +16,10 @@
 }
 
 @media all and (orientation:portait){
+ input{
+
+  width: 100%;
+ }
     
     
 }

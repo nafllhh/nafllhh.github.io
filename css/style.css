@@ -301,7 +301,7 @@ footer {
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 22px;
   color: #F1DDD4;
   display: block;
   transition: 0.3s;
@@ -362,18 +362,27 @@ footer {
 #myUL li a:hover:not(.header) {
   color:#141414; /* Add a hover effect to all links, except for headers */
 }
+::selection{
+  background-color: #A3365E;
+  color: white;
+}
+::placeholder{
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
 input {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
+  /* display: block; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+ height: 30px; 
   overflow: hidden;
-  padding: 16px;
-  /* width: 100%; */
-  background-color: #123D6A;
-  color: #729FCF;
+  padding: 10px 10px;
+  background-color: #A3365E;
+  /* color: #729FCF; */
   outline: none; 
   border-width: 0px;
   border-style:solid;
   border-color: #729FCF;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
