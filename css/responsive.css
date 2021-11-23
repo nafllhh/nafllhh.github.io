@@ -9,15 +9,15 @@
 }
 @media all and (min-width: 700px){
 .top-nav{
-   border-bottom-right-radius: 30px;
-   border-bottom-left-radius: 30px;
+   /* border-bottom-right-radius: 30px; */
+   /* border-bottom-left-radius: 30px; */
  }
 
 }
 @media all and (min-width: 700px) {
 	.side-menu {
-          width: 120px;
-          height: 290px;
+          /* width: 120px; */
+          height: 291px;
         }
   img.h-img {width: 170px;}
 }
