@@ -83,7 +83,7 @@ a {
 .top-nav a:hover {
   font-weight: bold;
   /* background-color: #272B33; */
-  color: #636A7A;
+  color:#802949;
 }
 .active {
   background-color: #A3365E;
@@ -259,6 +259,15 @@ hr.jst {
   height: 6px;/* size hr */
   background-color: #982C5A;
   width:  140px;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+hr.jstlong {
+  border: none; /* disable border */
+  height: 6px;/* size hr */
+  background-color: #982C5A;
+  width:  100%;
   border-radius: 30px;
   margin-left: auto;
   margin-right: auto;
