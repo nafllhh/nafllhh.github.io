@@ -5,6 +5,10 @@ body, html{
   /* globalFont */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
+h1.c-white {
+  text-align: center;
+  color: white;
+}
 h1.center {
   text-align: center;
 }
@@ -73,7 +77,7 @@ a {
 .top-nav a {
   font-weight: bold;
   float: left;
-  color: #f2f2f2;
+  color:#E6F0F3;
   text-align: center;
   padding: 14px 16px;
   padding-bottom: 14px;
@@ -83,7 +87,8 @@ a {
 .top-nav a:hover {
   font-weight: bold;
   /* background-color: #272B33; */
-  color:#802949;
+  color:#FFFFFF;
+  transition: 0.4s; 
 }
 .active {
   background-color: #A3365E;
@@ -138,6 +143,9 @@ a {
     color: #123D6A ;
 
   }
+  p.center{
+    text-align:center;
+  }
   .intex > h1.center {
     /* bla */
     text-align: center;
@@ -160,13 +168,13 @@ a {
 
   }
   img {
-     width:400px;
+     width:370px;
      border-radius: 10px;
   }
   img.center {
     /* how to center */
-    /* display:block; */
-    /* margin-left: auto; */
+    display:block;
+    margin-left: auto;
     margin-right: auto;
     /* end */
     padding: 14px 16px;
@@ -194,6 +202,11 @@ a {
   .backSide {
 
   }
+font.bold{
+   font-weight: bold;
+   font-size:20px;
+  
+}
   .stext {
 
     padding: 14px 16px;
@@ -277,6 +290,7 @@ hr.jstlong {
   text-align: center;
 }
 footer {
+  position: sticky;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   color: white;
@@ -301,7 +315,7 @@ footer {
 }
 
 .sidenav img{
-  width: 100px;
+  width: 150px;
   border-radius: 100%;
   display: block;
   margin-left: auto;
@@ -363,13 +377,14 @@ footer {
   /* background-color: #f6f6f6; /* Grey background color */ */
   padding: 12px; /* Add some padding */
   text-decoration: none; /* Remove default text underline */
-  font-size: 18px; /* Increase the font-size */
+  font-size: 23px; /* Increase the font-size */
   color: #F6F6F6; /* Add a black text color */
   display: block; /* Make it into a block element to fill the whole list */
 }
 
 #myUL li a:hover:not(.header) {
-  color:#141414; /* Add a hover effect to all links, except for headers */
+  color:#982C5A; /* Add a hover effect to all links, except for headers */
+  transition: 0.5s; 
 }
 ::selection{
   background-color: #A3365E;
