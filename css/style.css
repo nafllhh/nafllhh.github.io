@@ -168,7 +168,7 @@ a {
 
   }
   img {
-     width:370px;
+     width:360px;
      border-radius: 10px;
   }
   img.center {
@@ -177,7 +177,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     /* end */
-    padding: 14px 16px;
+    /* padding: 14px 16px; */
     /* width: 300px; */
     border-radius: 40px;
   }
