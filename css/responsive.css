@@ -1,3 +1,9 @@
+
+@font-face{
+  src: url("../fonts/JetBrains\ Mono\ Regular\ Nerd\ Font\ Complete.ttf");
+  font-family: JetBrains;
+
+}
 @media all and (min-width: 766px) {
   img.user {float: left}
 }
