@@ -1,9 +1,4 @@
 
-@font-face{
-  src: url("../fonts/JetBrains\ Mono\ Regular\ Nerd\ Font\ Complete.ttf");
-  font-family: JetBrains;
-
-}
 @media all and (min-width: 766px) {
   img.user {float: left}
 }
@@ -24,9 +19,12 @@
 @media all and (min-width: 700px) {
 	.side-menu {
           /* width: 120px; */
-          height: 291px;
+          height: 298px;
         }
   img.h-img {width: 170px;}
+  div.gall img{
+    font-size: 30px;
+  }
 }
 
 @media all and (orientation:portait){
