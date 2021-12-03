@@ -1,9 +1,15 @@
-$bg: #121212;
-
+$base:#5E81AC;
+$box: #A3BE8C;
+$box-act:#B48EAD;
+$accent:#5E81AC;
+$txt: #EDF5E0;
+$txt-d: black;
+$other: #78886A;
+$footer:#BF616A;
 body, html{
   height: 100%;
-  /* background-image: url(./110.png), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
-  background-color: $bg;
+  // background-image: url("../img/frost.png"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); 
+  background-color: $base;
   /* globalFont */
   /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  */
    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
@@ -84,7 +90,7 @@ a {
   overflow: hidden;
 box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 5px; */
-  background-color: #AB3B61;
+  background-color: #A3BE8C;
   border-top-left-radius:10px;
   border-top-right-radius:10px;
 }
@@ -105,18 +111,18 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   transition: 0.4s; 
 }
 .active {
-  background-color: #A3365E;
+  background-color: $box-act;
   color: #272B33;
   border-top-left-radius:0px;
 
 
 }
 .active2 {
-  background-color: #A3365E;
+  background-color: $box-act;
   color: #272B33;
 }
 .active3 {
-  background-color: #A3365E;
+  background-color: $box-act;
   color: #272B33;
 
 }
@@ -131,7 +137,7 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   .hero-img {
     /* background-image:linear-gradient(rgba(0, 0, 0, 0.5), */
     /* rgba(0, 0, 0, 0.5)), url(blank.png); */
-    background-color: #AB3B61;
+    background-color: $box-act;
     filter: opacity(100%);
     height: 50%;
     background-position: center;
@@ -156,7 +162,7 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   }
   .intex { 
     padding:20px;
-    color: #123D6A ;
+    color: $txt ;
 
   }
   p.center{
@@ -292,7 +298,8 @@ hr.jst2 {
 hr.jst {
   border: none; /* disable border */
   height: 6px;/* size hr */
-  background-color: #982C5A;
+  background-color: black;
+  opacity: 0.1;
   width:  140px;
   border-radius: 30px;
   margin-left: auto;
@@ -301,7 +308,8 @@ hr.jst {
 hr.jstlong {
   border: none; /* disable border */
   height: 6px;/* size hr */
-  background-color: #982C5A;
+  background-color: black;
+  opacity: 0.1;
   width:  100%;
   border-radius: 30px;
   margin-left: auto;
@@ -312,6 +320,8 @@ hr.jstlong {
   text-align: center;
 }
 footer {
+
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   position: sticky;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -319,7 +329,8 @@ footer {
   text-align: center;
   padding:20px;
   bottom: 0%;
-  background-color: #AB3B61;
+
+  background-color: $footer;
   margin-top:  4px;
 }
 
@@ -389,7 +400,7 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   flex-direction:column;
   padding: 0;
   margin: 0;border-radius: 20px;
-  background-color: #AB3B61; 
+  background-color: $accent; 
   color: #F1DDD4;
   margin: 14px;
   padding: 20px;
@@ -427,7 +438,7 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
  height: 30px; 
   overflow: hidden;
   padding: 10px 10px;
-  background-color: #A3365E;
+  background-color: $box-act;
   /* color: #729FCF; */
   outline: none; 
   border-width: 0px;
