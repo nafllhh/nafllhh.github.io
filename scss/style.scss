@@ -1,12 +1,15 @@
-$base:#5E81AC;
-$box: #A3BE8C;
-$box-act:#B48EAD;
-$accent:#5E81AC;
+$base:#272B33;
+$box: #181B21;
+$box-act:#181B21;
+$accent:#729FCA;
+$accent2:#729FCA;
 $txt: #EDF5E0;
-$txt-d: black;
+$txt-d: #181B21;
 $other: #78886A;
-$footer:#BF616A;
+$footer:#181B21;
+
 body, html{
+  scroll-behavior: smooth;
   height: 100%;
   // background-image: url("../img/frost.png"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); 
   background-color: $base;
@@ -70,8 +73,8 @@ font.welcome{
 }
 /* must with div.classname because div here is member of class */
 div.flexx {
-  color: #AB3B61;
-  background-color: #EDC8B8;
+  color: txt;
+  background-color: $accent2;
 }
 .circbox {
   float: right;
@@ -88,9 +91,9 @@ a {
 
 .top-nav {
   overflow: hidden;
-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+box-shadow: rgba(-1, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 5px; */
-  background-color: #A3BE8C;
+  background-color: $box;
   border-top-left-radius:10px;
   border-top-right-radius:10px;
 }
@@ -111,25 +114,27 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   transition: 0.4s; 
 }
 .active {
-  background-color: $box-act;
+  background-color: $accent;
   color: #272B33;
   border-top-left-radius:0px;
 
 
 }
 .active2 {
-  background-color: $box-act;
+  background-color: $accent;
   color: #272B33;
 }
 .active3 {
-  background-color: $box-act;
+  background-color: $accent;
   color: #272B33;
 
 }
 .hero{
+
+box-shadow: rgba(-1, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     display: flex;
     flex-direction: column;
-    background-color: #AB3B61;
+    background-color: $box;
     border-bottom-right-radius:0px;border-bottom-left-radius:20px;
 
 
@@ -172,14 +177,18 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     /* bla */
     text-align: center;
   }
+  p.ctext{
+
+    color:$txt-d;
+  }
   .intex > p.ctext{
-    color:#ABB2BF;
+    color:$txt-d;
     font-size: 10px;
     font-family: cursive;
 
   }
   .flexy > p.ctext{
-    color:#ABB2BF;
+    color:$txt;
     font-size: 10px;
     font-family: cursive;
 
@@ -214,7 +223,7 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     float:right;
     width: 100px;
     height: 328px;
-    background-color: #A3365E;
+    background-color: $accent;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 60px;
 
@@ -238,12 +247,12 @@ font.bold{
   .stext {
 
     padding: 14px 16px;
-    color: white;
+    color: $txt-d;
     font-size: 12px;
     float:left;
   }
   p.text {
-    color: #181B21;
+    color: #txt;
     text-align: center;
   }
   p.text > a {
@@ -298,8 +307,8 @@ hr.jst2 {
 hr.jst {
   border: none; /* disable border */
   height: 6px;/* size hr */
-  background-color: black;
-  opacity: 0.1;
+  background-color: $accent;
+  opacity: 1;
   width:  140px;
   border-radius: 30px;
   margin-left: auto;
@@ -322,7 +331,9 @@ hr.jstlong {
 footer {
 
 box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+font-weight: bold;
   position: sticky;
+  bottom: 0%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   color: white;
@@ -341,7 +352,7 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   z-index: 1; /* stay on top */
   top: 0; /* stay at the top */
   left: 0;
-  background-color: #AB3B61; 
+  background-color: $box; 
   overflow-x: hidden;
   padding-top: 60px; 
   transition: 0.5s; 
@@ -414,22 +425,22 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   padding: 12px; /* Add some padding */
   text-decoration: none; /* Remove default text underline */
   font-size: 23px; /* Increase the font-size */
-  color: #F6F6F6; /* Add a black text color */
+  color: $txt-d; /* Add a black text color */
   display: block; /* Make it into a block element to fill the whole list */
 }
 
 #myUL li a:hover:not(.header) {
-  color:#982C5A; /* Add a hover effect to all links, except for headers */
   transition: 0.5s; 
+  text-decoration: underline;
 }
 ::selection{
-  background-color: #A3365E;
+  background-color: $accent;
   color: white;
 }
 ::placeholder{
   font-size: 16px;
   font-weight: bold;
-  color: white;
+  color: black;
 }
 #formm {
   /* display: block; */
@@ -438,13 +449,13 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
  height: 30px; 
   overflow: hidden;
   padding: 10px 10px;
-  background-color: $box-act;
+  background-color: $accent;
   /* color: #729FCF; */
   outline: none; 
   border-width: 0px;
   border-style:solid;
   /* border-color: #729FCF; */
-  /* border-radius: 10px; */
+   // border-radius: 10px; 
 }
 div.gall{
   display: flex;
@@ -452,9 +463,9 @@ div.gall{
   margin: 10px;
   /* float: left; */
   width: 100%;
-  border: 1px solid #ccc;
+  // border: 1px solid #ccc;
   border-radius: 20px;
-  background-color:#AB3B61;
+  background-color:$accent;
   
 
 }
@@ -464,8 +475,12 @@ div.gall img{
   height: auto;
 
 }
+div.gall * h2 {
+
+  color: $txt-d;
+}
 div.descr{
-  color: white;
+  color: $txt-d;
   font-size: 15px;
   padding: 15px;
   text-align: center;

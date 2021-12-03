@@ -1,6 +1,7 @@
 body, html {
+  scroll-behavior: smooth;
   height: 100%;
-  background-color: #5E81AC;
+  background-color: #272B33;
   /* globalFont */
   /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
@@ -52,8 +53,8 @@ font.welcome {
 
 /* must with div.classname because div here is member of class */
 div.flexx {
-  color: #AB3B61;
-  background-color: #EDC8B8; }
+  color: txt;
+  background-color: #729FCA; }
 
 .circbox {
   float: right;
@@ -71,7 +72,7 @@ a {
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 5px; */
-  background-color: #A3BE8C;
+  background-color: #181B21;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px; }
 
@@ -92,29 +93,30 @@ a {
   transition: 0.4s; }
 
 .active {
-  background-color: #B48EAD;
+  background-color: #729FCA;
   color: #272B33;
   border-top-left-radius: 0px; }
 
 .active2 {
-  background-color: #B48EAD;
+  background-color: #729FCA;
   color: #272B33; }
 
 .active3 {
-  background-color: #B48EAD;
+  background-color: #729FCA;
   color: #272B33; }
 
 .hero {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   display: flex;
   flex-direction: column;
-  background-color: #AB3B61;
+  background-color: #181B21;
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 20px; }
 
 .hero-img {
   /* background-image:linear-gradient(rgba(0, 0, 0, 0.5), */
   /* rgba(0, 0, 0, 0.5)), url(blank.png); */
-  background-color: #B48EAD;
+  background-color: #181B21;
   filter: opacity(100%);
   height: 50%;
   background-position: center;
@@ -148,13 +150,16 @@ p.center {
   /* bla */
   text-align: center; }
 
+p.ctext {
+  color: #181B21; }
+
 .intex > p.ctext {
-  color: #ABB2BF;
+  color: #181B21;
   font-size: 10px;
   font-family: cursive; }
 
 .flexy > p.ctext {
-  color: #ABB2BF;
+  color: #EDF5E0;
   font-size: 10px;
   font-family: cursive; }
 
@@ -186,7 +191,7 @@ img.center {
   float: right;
   width: 100px;
   height: 328px;
-  background-color: #A3365E;
+  background-color: #729FCA;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 60px; }
 
@@ -203,12 +208,12 @@ font.bold {
 
 .stext {
   padding: 14px 16px;
-  color: white;
+  color: #181B21;
   font-size: 12px;
   float: left; }
 
 p.text {
-  color: #181B21;
+  color: #txt;
   text-align: center; }
 
 p.text > a {
@@ -262,8 +267,8 @@ hr.jst {
   /* disable border */
   height: 6px;
   /* size hr */
-  background-color: black;
-  opacity: 0.1;
+  background-color: #729FCA;
+  opacity: 1;
   width: 140px;
   border-radius: 30px;
   margin-left: auto;
@@ -287,14 +292,16 @@ hr.jstlong {
 
 footer {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  font-weight: bold;
   position: sticky;
+  bottom: 0%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   color: white;
   text-align: center;
   padding: 20px;
   bottom: 0%;
-  background-color: #BF616A;
+  background-color: #181B21;
   margin-top: 4px; }
 
 .sidenav {
@@ -309,7 +316,7 @@ footer {
   top: 0;
   /* stay at the top */
   left: 0;
-  background-color: #AB3B61;
+  background-color: #181B21;
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
@@ -371,7 +378,7 @@ footer {
   padding: 0;
   margin: 0;
   border-radius: 20px;
-  background-color: #5E81AC;
+  background-color: #729FCA;
   color: #F1DDD4;
   margin: 14px;
   padding: 20px;
@@ -388,24 +395,23 @@ footer {
   /* Remove default text underline */
   font-size: 23px;
   /* Increase the font-size */
-  color: #F6F6F6;
+  color: #181B21;
   /* Add a black text color */
   display: block;
   /* Make it into a block element to fill the whole list */ }
 
 #myUL li a:hover:not(.header) {
-  color: #982C5A;
-  /* Add a hover effect to all links, except for headers */
-  transition: 0.5s; }
+  transition: 0.5s;
+  text-decoration: underline; }
 
 ::selection {
-  background-color: #A3365E;
+  background-color: #729FCA;
   color: white; }
 
 ::placeholder {
   font-size: 16px;
   font-weight: bold;
-  color: white; }
+  color: black; }
 
 #formm {
   /* display: block; */
@@ -414,13 +420,12 @@ footer {
   height: 30px;
   overflow: hidden;
   padding: 10px 10px;
-  background-color: #B48EAD;
+  background-color: #729FCA;
   /* color: #729FCF; */
   outline: none;
   border-width: 0px;
   border-style: solid;
-  /* border-color: #729FCF; */
-  /* border-radius: 10px; */ }
+  /* border-color: #729FCF; */ }
 
 div.gall {
   display: flex;
@@ -428,17 +433,19 @@ div.gall {
   margin: 10px;
   /* float: left; */
   width: 100%;
-  border: 1px solid #ccc;
   border-radius: 20px;
-  background-color: #AB3B61; }
+  background-color: #729FCA; }
 
 div.gall img {
   width: 100%;
   /* height: 100%; */
   height: auto; }
 
+div.gall * h2 {
+  color: #181B21; }
+
 div.descr {
-  color: white;
+  color: #181B21;
   font-size: 15px;
   padding: 15px;
   text-align: center; }
