@@ -98,18 +98,18 @@ a {
   color: #ffffff; }
 
 .active {
-  background-color: #E2B93D;
+  background-color: #e2b93d;
   color: #272b33;
   border-top-left-radius: 0px;
   transition: 0.6s; }
 
 .active2 {
-  background-color: #E2B93D;
+  background-color: #e2b93d;
   color: #272b33;
   transition: 0.6s; }
 
 .active3 {
-  background-color: #E2B93D;
+  background-color: #e2b93d;
   color: #272b33;
   transition: 0.6s; }
 
@@ -198,8 +198,8 @@ img.center {
   position: sticky;
   float: right;
   width: 100px;
-  height: 339px;
-  background-color: #E2B93D;
+  height: 336px;
+  background-color: #e2b93d;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 60px; }
 
@@ -277,7 +277,7 @@ hr.jst {
   /* disable border */
   height: 6px;
   /* size hr */
-  background-color: #E2B93D;
+  background-color: #e2b93d;
   opacity: 1;
   width: 140px;
   border-radius: 30px;
@@ -326,7 +326,7 @@ hr.jstlong {
   width: 100px;
   color: #181b21;
   height: 60px;
-  background-color: #E2B93D;
+  background-color: #e2b93d;
   border-radius: 10px;
   padding: 4px; }
 
@@ -437,7 +437,7 @@ footer {
   margin: 0;
   border-radius: 20px;
   background-color: #181b21;
-  border-color: #E2B93D;
+  border-color: #e2b93d;
   border-style: solid;
   color: #f1ddd4;
   margin: 14px;
@@ -455,7 +455,7 @@ footer {
   /* Remove default text underline */
   font-size: 23px;
   /* Increase the font-size */
-  color: #E2B93D;
+  color: #e2b93d;
   /* Add a black text color */
   display: block;
   /* Make it into a block element to fill the whole list */ }
@@ -481,7 +481,7 @@ footer {
   height: 30px;
   overflow: hidden;
   padding: 10px 10px;
-  background-color: #E2B93D;
+  background-color: #e2b93d;
   /* color: #729FCF; */
   outline: none;
   border-width: 0px;
@@ -495,7 +495,7 @@ div.gall {
   /* float: left; */
   width: 100%;
   border-radius: 20px;
-  background-color: #E2B93D; }
+  background-color: #e2b93d; }
 
 div.gall img {
   width: 100%;
