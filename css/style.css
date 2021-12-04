@@ -129,8 +129,8 @@ a {
   transition: 0.6s; }
 
 .hero {
-  position: relative;
-  height: 65%;
+  position: static;
+  height: 70%;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   display: flex;
   flex-direction: column;
@@ -211,7 +211,7 @@ img.center {
   position: sticky;
   float: right;
   width: 100px;
-  height: 65%;
+  height: 70%;
   background-color: #e2b93d;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 60px; }
