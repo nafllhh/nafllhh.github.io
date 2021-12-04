@@ -6,7 +6,7 @@ html {
   /* globalFont */
   /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  margin: 10px; }
+  margin: 5px; }
 
 h1.c-white {
   text-align: center;
@@ -98,18 +98,18 @@ a {
   color: #ffffff; }
 
 .active {
-  background-color: #ca6d6d;
+  background-color: #E2B93D;
   color: #272b33;
   border-top-left-radius: 0px;
   transition: 0.6s; }
 
 .active2 {
-  background-color: #ca6d6d;
+  background-color: #E2B93D;
   color: #272b33;
   transition: 0.6s; }
 
 .active3 {
-  background-color: #ca6d6d;
+  background-color: #E2B93D;
   color: #272b33;
   transition: 0.6s; }
 
@@ -199,7 +199,7 @@ img.center {
   float: right;
   width: 100px;
   height: 349px;
-  background-color: #ca6d6d;
+  background-color: #E2B93D;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 60px; }
 
@@ -256,7 +256,7 @@ p.user-text {
 img.h-img {
   border-radius: 200px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  width: 200px;
+  width: 190px;
   display: block;
   padding: 14px 16px;
   margin-top: 20px;
@@ -277,7 +277,7 @@ hr.jst {
   /* disable border */
   height: 6px;
   /* size hr */
-  background-color: #ca6d6d;
+  background-color: #E2B93D;
   opacity: 1;
   width: 140px;
   border-radius: 30px;
@@ -326,7 +326,7 @@ hr.jstlong {
   width: 100px;
   color: #181b21;
   height: 60px;
-  background-color: #ca6d6d;
+  background-color: #E2B93D;
   border-radius: 10px;
   padding: 4px; }
 
@@ -437,7 +437,7 @@ footer {
   margin: 0;
   border-radius: 20px;
   background-color: #181b21;
-  border-color: #ca6d6d;
+  border-color: #E2B93D;
   border-style: solid;
   color: #f1ddd4;
   margin: 14px;
@@ -455,7 +455,7 @@ footer {
   /* Remove default text underline */
   font-size: 23px;
   /* Increase the font-size */
-  color: #ca6d6d;
+  color: #E2B93D;
   /* Add a black text color */
   display: block;
   /* Make it into a block element to fill the whole list */ }
@@ -481,7 +481,7 @@ footer {
   height: 30px;
   overflow: hidden;
   padding: 10px 10px;
-  background-color: #ca6d6d;
+  background-color: #E2B93D;
   /* color: #729FCF; */
   outline: none;
   border-width: 0px;
@@ -495,7 +495,7 @@ div.gall {
   /* float: left; */
   width: 100%;
   border-radius: 20px;
-  background-color: #ca6d6d; }
+  background-color: #E2B93D; }
 
 div.gall img {
   width: 100%;
