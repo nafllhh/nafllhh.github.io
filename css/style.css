@@ -22,7 +22,7 @@ h1.center {
 
 font.welcome {
   font-size: 50px;
-  color: #5db6ff; }
+  color: #e2b93d; }
 
 font.accent {
   color: #F84B56; }
@@ -113,18 +113,18 @@ a {
   color: #ffffff; }
 
 .active {
-  background-color: #5db6ff;
+  background-color: #e2b93d;
   color: #272b33;
   border-top-left-radius: 0px;
   transition: 0.6s; }
 
 .active2 {
-  background-color: #5db6ff;
+  background-color: #e2b93d;
   color: #272b33;
   transition: 0.6s; }
 
 .active3 {
-  background-color: #5db6ff;
+  background-color: #e2b93d;
   color: #272b33;
   transition: 0.6s; }
 
@@ -212,7 +212,7 @@ img.center {
   float: right;
   width: 100px;
   height: 65%;
-  background-color: #5db6ff;
+  background-color: #e2b93d;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 60px; }
 
@@ -268,7 +268,7 @@ p.user-text {
 
 img.h-img {
   border-radius: 200px;
-  background-color: #5db6ff;
+  background-color: #e2b93d;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   width: 190px;
   display: block;
@@ -291,7 +291,7 @@ hr.jst {
   /* disable border */
   height: 6px;
   /* size hr */
-  background-color: #5db6ff;
+  background-color: #e2b93d;
   opacity: 1;
   width: 140px;
   border-radius: 30px;
@@ -341,7 +341,7 @@ hr.jstlong {
   width: 100px;
   color: #181b21;
   height: 60px;
-  background-color: #5db6ff;
+  background-color: #e2b93d;
   border-radius: 10px;
   padding: 4px; }
 
@@ -376,7 +376,7 @@ footer.accent {
   text-align: center;
   padding: 20px;
   bottom: 0%;
-  background-color: #5db6ff;
+  background-color: #e2b93d;
   margin-top: 4px; }
 
 .footer {
@@ -470,7 +470,7 @@ footer.accent {
   margin: 0;
   border-radius: 20px;
   background-color: #181b21;
-  border-color: #5db6ff;
+  border-color: #e2b93d;
   border-style: solid;
   color: #f1ddd4;
   margin: 14px;
@@ -489,7 +489,7 @@ footer.accent {
   /* Remove default text underline */
   font-size: 23px;
   /* Increase the font-size */
-  color: #5db6ff;
+  color: #e2b93d;
   /* Add a black text color */
   display: block;
   /* Make it into a block element to fill the whole list */
@@ -528,7 +528,7 @@ p.ctext {
   height: 30px;
   overflow: hidden;
   padding: 10px 10px;
-  background-color: #5db6ff;
+  background-color: #e2b93d;
   /* color: #729FCF; */
   outline: none;
   border-width: 0px;
@@ -542,7 +542,7 @@ div.gall {
   /* float: left; */
   width: 100%;
   border-radius: 20px;
-  background-color: #5db6ff; }
+  background-color: #e2b93d; }
 
 div.gall img {
   width: 100%;
