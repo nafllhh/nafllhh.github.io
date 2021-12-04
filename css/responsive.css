@@ -6,6 +6,7 @@
  input{
    width: 100%;
  }
+
  
  
 }
@@ -16,10 +17,15 @@
  }
 
 }
-@media all and (min-width: 700px) {
+@media all and (min-width: 800px) {
 	.side-menu {
           /* width: 120px; */
-          height: 298px;
+          height: 318px;
+        }
+        .side-arc{
+    
+          width: 200px;
+          display: unset;
         }
   img.h-img {width: 170px;}
   div.gall img{
