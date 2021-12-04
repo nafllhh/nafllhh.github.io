@@ -13,13 +13,16 @@ body,
 html {
   scroll-behavior: smooth;
   height: 100%;
+  transition: 0.3s;
+  
   // background-image: url("../img/frost.png"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   background-color: $base;
   /* globalFont */
   /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  margin: 5px;
+  margin: 5;
+  padding: 0;
 }
 
 h1.c-white {
@@ -78,6 +81,12 @@ div.flexx {
   background-color: $accent2;
   font-weight: bold;
 }
+div.flexx2 {
+  color: $txt;
+  background-color: $box;
+  font-weight: bold;
+  font-size: 15px;
+}
 .circbox {
   float: right;
   width: 270px;
@@ -134,7 +143,8 @@ a {
   transition: 0.6s;
 }
 .hero {
-  height: 60%;
+  position: relative;
+  height: 65%;
   box-shadow: rgba(-1, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   display: flex;
   flex-direction: column;
@@ -224,7 +234,7 @@ img.center {
   position: sticky;
   float: right;
   width: 100px;
-  height: 60%;
+  height: 65%;
   background-color: $accent;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 60px;
@@ -244,7 +254,7 @@ font.bold {
 }
 .stext {
   padding: 14px 16px;
-  color: $txt;
+  color: $txt-d;
   font-size: 12px;
   float: left;
 }
@@ -332,6 +342,7 @@ hr.jstlong {
   box-shadow: rgba(-1, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   float: right;
   width: 100px;
+  
   display: none;
   height: 90%;
   border-bottom-left-radius: 10px;
@@ -345,6 +356,7 @@ hr.jstlong {
 }
 
 .box {
+  overflow: hidden;
   text-align: center;
   position: static;
   right: 200px;

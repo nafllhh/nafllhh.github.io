@@ -2,11 +2,13 @@ body,
 html {
   scroll-behavior: smooth;
   height: 100%;
+  transition: 0.3s;
   background-color: #15181d;
   /* globalFont */
   /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  margin: 5px; }
+  margin: 5;
+  padding: 0; }
 
 h1.c-white {
   text-align: center;
@@ -58,6 +60,12 @@ div.flexx {
   color: #181b21;
   background-color: #e2b93d;
   font-weight: bold; }
+
+div.flexx2 {
+  color: #edf5e0;
+  background-color: #181b21;
+  font-weight: bold;
+  font-size: 15px; }
 
 .circbox {
   float: right;
@@ -114,7 +122,8 @@ a {
   transition: 0.6s; }
 
 .hero {
-  height: 60%;
+  position: relative;
+  height: 65%;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   display: flex;
   flex-direction: column;
@@ -199,7 +208,7 @@ img.center {
   position: sticky;
   float: right;
   width: 100px;
-  height: 60%;
+  height: 65%;
   background-color: #e2b93d;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 60px; }
@@ -217,7 +226,7 @@ font.bold {
 
 .stext {
   padding: 14px 16px;
-  color: #edf5e0;
+  color: #181b21;
   font-size: 12px;
   float: left; }
 
@@ -321,6 +330,7 @@ hr.jstlong {
   text-align: center; }
 
 .box {
+  overflow: hidden;
   text-align: center;
   position: static;
   right: 200px;
