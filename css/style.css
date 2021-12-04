@@ -24,6 +24,12 @@ font.welcome {
   font-size: 50px;
   color: #e2b93d; }
 
+font.accent {
+  color: #F84B56; }
+
+font.darker {
+  color: #393D46; }
+
 .flexy {
   display: flex;
   flex-direction: column; }
@@ -358,6 +364,21 @@ footer {
   background-color: #181b21;
   margin-top: 4px; }
 
+footer.accent {
+  user-select: none;
+  box-shadow: rgba(105, 54, 54, 0.16) 0px 3px 6px;
+  font-weight: bold;
+  position: sticky;
+  bottom: 0%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: #181b21;
+  text-align: center;
+  padding: 20px;
+  bottom: 0%;
+  background-color: #e2b93d;
+  margin-top: 4px; }
+
 .footer {
   user-select: none;
   box-shadow: rgba(32, 25, 25, 0.986) 10px 3px 10px;
@@ -488,7 +509,7 @@ p.ctext {
 
 #myUL li a:hover:not(.header) {
   transition: 0.5s;
-  color: #ca6d6da6;
+  color: #729fca;
   text-decoration: underline; }
 
 ::selection {

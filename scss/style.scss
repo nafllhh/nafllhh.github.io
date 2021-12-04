@@ -4,10 +4,12 @@ $box: #181b21;
 $box-act: #181b21;
 $accent: #e2b93d;
 $accent2: #e2b93d;
+$hot:#F84B56;
 $txt: #edf5e0;
 $txt-d: #181b21;
 $other: #78886a;
 $footer: #181b21;
+
 
 body,
 html {
@@ -41,6 +43,12 @@ h1.center {
 font.welcome {
   font-size: 50px;
   color: $accent;
+}
+font.accent {
+  color: $hot;
+}
+font.darker {
+  color: #393D46;
 }
 
 .flexy {
@@ -388,6 +396,22 @@ footer {
   background-color: $footer;
   margin-top: 4px;
 }
+footer.accent {
+  user-select: none;
+  box-shadow: rgba(105, 54, 54, 0.16) 0px 3px 6px;
+  font-weight: bold;
+  position: sticky;
+  bottom: 0%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: $txt-d;
+  text-align: center;
+  padding: 20px;
+  bottom: 0%;
+
+  background-color: $accent;
+  margin-top: 4px;
+}
 
 .footer {
   user-select: none;
@@ -509,7 +533,7 @@ p.ctext {
 }
 #myUL li a:hover:not(.header) {
   transition: 0.5s;
-  color: #ca6d6da6;
+  color: #729fca;
   text-decoration: underline;
 }
 ::selection {
