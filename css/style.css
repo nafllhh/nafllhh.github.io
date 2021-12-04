@@ -167,10 +167,6 @@ p.center {
   /* bla */
   text-align: center; }
 
-p.ctext {
-  color: #edf5e0;
-  padding-left: 15px; }
-
 .intex > p.ctext {
   color: #181b21;
   font-size: 10px;
@@ -319,7 +315,7 @@ hr.jstlong {
   float: right;
   width: 100px;
   display: none;
-  height: 90%;
+  height: 690px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   background-color: #181b21; }
@@ -347,6 +343,7 @@ hr.jstlong {
   font-size: 30px; }
 
 footer {
+  user-select: none;
   box-shadow: rgba(105, 54, 54, 0.16) 0px 3px 6px;
   font-weight: bold;
   position: sticky;
@@ -361,6 +358,7 @@ footer {
   margin-top: 4px; }
 
 .footer {
+  user-select: none;
   box-shadow: rgba(32, 25, 25, 0.986) 10px 3px 10px;
   font-weight: bold;
   position: static;
@@ -440,6 +438,7 @@ footer {
   /* Add some space below the input */ }
 
 #myUL {
+  user-select: none;
   /* Remove default list styling */
   list-style-type: none;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -454,12 +453,14 @@ footer {
   color: #f1ddd4;
   margin: 14px;
   padding: 20px;
-  font-size: 19px; }
+  font-size: 19px;
+  height: 60%; }
 
 #myUL li a {
   /* border: 1px solid #ddd; /* Add a border to all links */
-  margin-top: -1px;
+  margin-top: -20px;
   /* Prevent double borders */
+  margin-bottom: -15px;
   /* background-color: #f6f6f6; /* Grey background color */
   padding: 12px;
   /* Add some padding */
@@ -470,7 +471,19 @@ footer {
   color: #e2b93d;
   /* Add a black text color */
   display: block;
-  /* Make it into a block element to fill the whole list */ }
+  /* Make it into a block element to fill the whole list */
+  text-align: center; }
+
+img.preview {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+p.ctext {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #edf5e0;
+  padding-left: 15px; }
 
 #myUL li a:hover:not(.header) {
   transition: 0.5s;
