@@ -4,19 +4,18 @@ $box: #181b21;
 $box-act: #181b21;
 $accent: #e2b93d;
 $accent2: #e2b93d;
-$hot:#F84B56;
+$hot: #f84b56;
 $txt: #edf5e0;
 $txt-d: #181b21;
 $other: #78886a;
 $footer: #181b21;
-
 
 body,
 html {
   scroll-behavior: smooth;
   height: 100%;
   transition: 0.3s;
-  
+
   // background-image: url("../img/frost.png"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   background-color: $base;
   /* globalFont */
@@ -25,7 +24,6 @@ html {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin: 5;
   padding: 0;
-  
 }
 
 h1.c-white {
@@ -48,7 +46,7 @@ font.accent {
   color: $hot;
 }
 font.darker {
-  color: #393D46;
+  color: #393d46;
 }
 
 .flexy {
@@ -154,7 +152,7 @@ a {
 }
 .hero {
   position: static;
-  height: 70%;
+  height: 60%;
   box-shadow: rgba(-1, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   display: flex;
   flex-direction: column;
@@ -238,10 +236,10 @@ img.center {
 .side-menu {
   /* background-image: url(114.jpg); */
 
-  position: sticky;
+  position: static;
   float: right;
   width: 100px;
-  height: 70%;
+  height: 60%;
   background-color: $accent;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 60px;
@@ -349,7 +347,7 @@ hr.jstlong {
   box-shadow: rgba(-1, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   float: right;
   width: 100px;
-  
+
   display: none;
   height: 690px;
   border-bottom-left-radius: 10px;
@@ -504,7 +502,6 @@ footer.accent {
   margin: 14px;
   padding: 20px;
   font-size: 19px;
-
 }
 
 #myUL li a {
@@ -519,10 +516,10 @@ footer.accent {
   display: block; /* Make it into a block element to fill the whole list */
   text-align: center;
 }
-img.preview{
+img.preview {
   width: 230px;
   display: block;
-  margin-left:auto;
+  margin-left: auto;
   margin-right: auto;
 }
 p.ctext {

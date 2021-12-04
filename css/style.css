@@ -25,10 +25,10 @@ font.welcome {
   color: #e2b93d; }
 
 font.accent {
-  color: #F84B56; }
+  color: #f84b56; }
 
 font.darker {
-  color: #393D46; }
+  color: #393d46; }
 
 .flexy {
   display: flex;
@@ -89,7 +89,7 @@ a {
 .top-nav {
   overflow: hidden;
   border-color: #181b21;
-  border-style: dashed;
+
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 5px; */
   background-color: #181b21;
@@ -130,7 +130,7 @@ a {
 
 .hero {
   position: static;
-  height: 70%;
+  height: 340px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   display: flex;
   flex-direction: column;
@@ -208,10 +208,10 @@ img.center {
 
 .side-menu {
   /* background-image: url(114.jpg); */
-  position: sticky;
+  position: static;
   float: right;
   width: 100px;
-  height: 70%;
+  height: 340px;
   background-color: #e2b93d;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 60px; }
