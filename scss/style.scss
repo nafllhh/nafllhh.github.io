@@ -40,6 +40,7 @@ h1.center {
 }
 font.welcome {
   font-size: 50px;
+  color: $accent;
 }
 
 .flexy {
@@ -479,7 +480,7 @@ footer {
   margin: 14px;
   padding: 20px;
   font-size: 19px;
-  height: 60%;
+
 }
 
 #myUL li a {
@@ -495,6 +496,7 @@ footer {
   text-align: center;
 }
 img.preview{
+  width: 230px;
   display: block;
   margin-left:auto;
   margin-right: auto;
