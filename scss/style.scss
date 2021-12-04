@@ -3,7 +3,7 @@ $base: #15181d;
 $box: #181b21;
 $box-act: #181b21;
 $accent: #e2b93d;
-$accent2: #e2b93d;;
+$accent2: #e2b93d;
 $txt: #edf5e0;
 $txt-d: #181b21;
 $other: #78886a;
@@ -134,6 +134,7 @@ a {
   transition: 0.6s;
 }
 .hero {
+  height: 60%;
   box-shadow: rgba(-1, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   display: flex;
   flex-direction: column;
@@ -223,7 +224,7 @@ img.center {
   position: sticky;
   float: right;
   width: 100px;
-  height: 336px;
+  height: 60%;
   background-color: $accent;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 60px;
@@ -283,6 +284,7 @@ p.user-text {
 }
 img.h-img {
   border-radius: 200px;
+  background-color: $accent;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   width: 190px;
   display: block;

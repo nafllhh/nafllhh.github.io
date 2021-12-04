@@ -17,7 +17,8 @@
 @media all and (min-width: 800px) {
   .side-menu {
     /* width: 120px; */
-    height: 315px;
+    /*height: 315px;*/
+    height: 60%;
   }
   .side-arc {
     width: 200px;
