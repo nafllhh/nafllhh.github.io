@@ -3,3 +3,28 @@
   font-family: JetBrains;
 
 }
+@font-face {
+  font-family: 'Fantasque Sans Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fantasque Sans Mono'), url('https://fonts.cdnfonts.com/s/18146/fantasquesansmono-regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Fantasque Sans Mono';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Fantasque Sans Mono'), url('https://fonts.cdnfonts.com/s/18146/fantasquesansmono-italic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Fantasque Sans Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Fantasque Sans Mono'), url('https://fonts.cdnfonts.com/s/18146/fantasquesansmono-bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Fantasque Sans Mono';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Fantasque Sans Mono'), url('https://fonts.cdnfonts.com/s/18146/fantasquesansmono-bolditalic.woff') format('woff');
+}
+

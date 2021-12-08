@@ -2,8 +2,10 @@
 $base: #15181d;
 $box: #181b21;
 $box-act: #181b21;
-$accent: #e2b93d;
-$accent2: #e2b93d;
+$accent: #fdbd45;
+$accent2: #ecae3b;
+//$accent: #e2b93d;
+//$accent2: #e2b93d;
 $hot: #f84b56;
 $txt: #edf5e0;
 $txt-d: #181b21;
@@ -20,8 +22,7 @@ html {
   background-color: $base;
   /* globalFont */
   /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: JetBrains;
   margin: 5;
   padding: 0;
 }
@@ -37,6 +38,10 @@ h1.c-white {
 }
 h1.center {
   text-align: center;
+}
+h1.big{
+  text-align: center;
+  font-size: 40px;
 }
 font.welcome {
   font-size: 50px;
@@ -102,6 +107,12 @@ div.flexx2 {
   padding: 12px 17px;
 }
 /* make disappear in specify size */
+button {
+  background-color: $accent;
+  font-size: 17px;
+  border-radius: 10px;
+  border: none;
+}
 a {
   color: #ffffff;
   /* disable underline */
@@ -109,6 +120,7 @@ a {
 }
 
 .top-nav {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   overflow: hidden;
   border-color: $box;
   border-style: dashed;
@@ -149,10 +161,11 @@ a {
   background-color: $accent;
   color: #272b33;
   transition: 0.6s;
+  
 }
 .hero {
   position: static;
-  height: 60%;
+  height: 340px;
   box-shadow: rgba(-1, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   display: flex;
   flex-direction: column;
@@ -192,9 +205,13 @@ hr {
 .intex {
   padding: 20px;
   color: $txt;
+  font-family: JetBrains;
+
 }
 p.center {
+
   text-align: center;
+  font-size: 16px;
 }
 .intex > h1.center {
   /* bla */
@@ -239,7 +256,7 @@ img.center {
   position: static;
   float: right;
   width: 100px;
-  height: 60%;
+  height: 340px;
   background-color: $accent;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 60px;
@@ -320,13 +337,16 @@ hr.jst {
   height: 6px; /* size hr */
   background-color: $accent;
   opacity: 1;
-  width: 140px;
+  width: 100px;
   border-radius: 30px;
   margin-left: auto;
   margin-right: auto;
+  transition: width 0.3s ease;
 }
-hr.jst :hover {
+hr.jst:hover {
   width: 200px;
+  background-color:$accent;
+  
 }
 hr.jstlong {
   border: none; /* disable border */
@@ -428,7 +448,7 @@ footer.accent {
 }
 
 .sidenav {
-  height: 100%; /* 100% Full-height */
+  height: 100%; /* 100%`Full-height */
   width: 0; /* chance in java*/
   position: fixed; /* stay in place */
   z-index: 1; /* stay on top */
