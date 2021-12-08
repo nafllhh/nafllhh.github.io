@@ -69,7 +69,7 @@ font.darker {
 /* must with div.classname because div here is member of class */
 div.flexx {
   color: #181b21;
-  background-color: #ecae3b;
+  background-color: #e7aa38;
   font-weight: bold; }
 
 div.flexx2 {
@@ -117,25 +117,23 @@ a {
   text-decoration: none;
   font-size: 17px; }
 
-.top-nav a:hover {
-  border-radius: 100px;
-  font-weight: bold;
-  /* background-color: #272B33; */
-  color: #ffffff; }
-
 .active {
-  background-color: #fdbd45;
+  background-color: #e7aa38;
   color: #272b33;
-  border-top-left-radius: 0px;
   transition: 0.6s; }
 
 .active2 {
-  background-color: #fdbd45;
+  background-color: #e7aa38;
+  color: #272b33;
+  transition: 0.6s; }
+
+.active:hover {
+  border-radius: 100px;
   color: #272b33;
   transition: 0.6s; }
 
 .active3 {
-  background-color: #fdbd45;
+  background-color: #e7aa38;
   color: #272b33;
   transition: 0.6s; }
 
@@ -185,7 +183,8 @@ p.center {
 
 .intex > h1.center {
   /* bla */
-  text-align: center; }
+  text-align: center;
+  font-size: 50px; }
 
 .intex > p.ctext {
   color: #181b21;
@@ -363,6 +362,10 @@ hr.jstlong {
 .box > div {
   padding: 10px;
   font-size: 30px; }
+
+.box:hover {
+  background-color: #e7aa38;
+  transition: 0.5s; }
 
 footer {
   user-select: none;
