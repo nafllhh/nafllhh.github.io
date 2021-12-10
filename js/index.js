@@ -1,15 +1,7 @@
-
-
-
-
-
-//endofleanr
 function openNav() {
   document.getElementById("mySidenav").style.width = "365px";
 }
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
+function closeNav() { document.getElementById("mySidenav").style.width = "0"; }
 function search() {
   var input, filter, ul, li, a, i, txtValue;
   input = document.getElementById('formm');
@@ -27,4 +19,4 @@ function search() {
     }
   }
 }
-
+  
