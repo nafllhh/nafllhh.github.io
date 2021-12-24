@@ -17,7 +17,6 @@ html {
   scroll-behavior: smooth;
   height: 100%;
   transition: 0.3s;
-
   // background-image: url("../img/frost.png"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   background-color: $base;
   /* globalFont */
@@ -100,6 +99,7 @@ div.flexx2 {
   font-weight: bold;
   font-size: 15px;
 }
+
 .circbox {
   float: right;
   width: 270px;
