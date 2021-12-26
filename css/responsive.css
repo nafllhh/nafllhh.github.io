@@ -2,13 +2,20 @@
   img.user {
     float: left;
   }
+
 }
 @media all and (max-width: 470px) {
   input {
     width: 100%;
   }
+  
 }
-@media all and (min-width: 700px) {
+@media (max-width: 470px) {
+
+  .art {
+    flex-direction: column;
+    width: unset;
+  }
 
 }
 @media all and (min-width: 500px) {
@@ -17,6 +24,7 @@
     /*height: 315px;*/
     height: 340px;
   }
+  
   img.h-img{
     width: 200px;
   }
@@ -33,6 +41,7 @@
   div.gall img {
     font-size: 30px;
   }
+
 }
 
 @media all and (orientation: portait) {
@@ -44,6 +53,7 @@
   p.user-text {
     display: none;
   }
+  
 }
 
 @media screen and (max-height: 450px) {

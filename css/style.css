@@ -110,7 +110,7 @@ a {
 .top-nav a {
   font-weight: bold;
   float: left;
-  color: #ffffffc9;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   padding-bottom: 14px;
@@ -344,7 +344,7 @@ hr.jstlong {
 .side-arc > div {
   color: #edf5e0;
   padding-top: 20px;
-  text-align: center; }
+  text-align: left; }
 
 .box {
   overflow: hidden;
@@ -575,5 +575,13 @@ div.descr {
   font-size: 15px;
   padding: 15px;
   text-align: center; }
+
+.art {
+  display: flex;
+  flex-direction: row; }
+
+img.gflex {
+  margin: 20px;
+  width: 270px; }
 
 /*# sourceMappingURL=style.css.map */
