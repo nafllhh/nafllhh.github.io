@@ -1,19 +1,22 @@
 //#272b33
-$base: #15181d;
-$box: #181b21;
+//warna
+$base: #252632;
+$box: #161723;
 $box-act: #181b21;
-$accent: #fdbd45;
-$accent2: #e7aa38;
-//$accent: #e2b93d;
-//$accent2: #e2b93d;
+$accent: #93abee;
+$accent2: #93abee;
 $hot: #f84b56;
 $txt: #edf5e0;
 $txt-d: #181b21;
 $other: #78886a;
-$footer: #181b21;
+$footer: $box;
+//ui
+$border: 20px;
 
 body,
 html {
+
+background-image: url("../img/naiseec.png");
   scroll-behavior: smooth;
   height: 100%;
   transition: 0.3s;
@@ -22,10 +25,15 @@ html {
   /* globalFont */
   /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  */
   font-family: JetBrains;
-  margin: 5;
+  margin: 5px;
   padding: 0;
+  overflow-x: hidden;
 }
 
+h1.c-accent {
+  text-align: center;
+  color: $accent;
+}
 h1.c-white {
   text-align: center;
   color: white;
@@ -59,9 +67,7 @@ font.darker {
 }
 
 .flexy > div {
-  border-radius: 20px;
-
-  background-color: #729fca;
+  border-radius: 30px;
   color: #272b33;
   margin: 14px;
   padding: 20px;
@@ -75,6 +81,15 @@ font.darker {
 }
 .flexy > div a:hover {
   color: #212737;
+}
+
+div.flexx2 {
+  color: $txt;
+  background-color: $box;
+  // font-weight: bold;
+  font-size: 15px;
+  // padding-left: 20px;
+  padding-right: 40px;
 }
 .flexo {
   display: flex;
@@ -92,12 +107,6 @@ div.flexx {
   color: $txt-d;
   background-color: $accent2;
   font-weight: bold;
-}
-div.flexx2 {
-  color: $txt;
-  background-color: $box;
-  font-weight: bold;
-  font-size: 15px;
 }
 
 .circbox {
@@ -168,6 +177,9 @@ a {
 }
 
 .hero {
+  
+// background-image: url("../img/aurora.png");
+  /* background-image:linear-gradient(rgba(0, 0, 0, 0.5), */
   position: static;
   height: 340px;
   box-shadow: rgba(-1, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -181,7 +193,6 @@ a {
 
 //}
 .hero-img {
-  /* background-image:linear-gradient(rgba(0, 0, 0, 0.5), */
   /* rgba(0, 0, 0, 0.5)), url(blank.png); */
   background-color: $box;
 
@@ -205,6 +216,13 @@ a {
 hr {
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
+}
+
+.intex-d {
+  padding: 20px;
+  color: $txt-d;
+  font-family: JetBrains;
+
 }
 .intex {
   padding: 20px;
@@ -336,6 +354,7 @@ hr.jst2 {
   width: 300px;
   background-color: #edf5e0;
   border-radius: 20px;
+  bottom: 0%;
 }
 hr.jst {
   border: none; /* disable border */
@@ -371,12 +390,12 @@ hr.jstlong {
 .side-arc {
   box-shadow: rgba(-1, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   float: right;
-  width: 100px;
+  width: 130px;
 
   display: none;
   height: 690px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius:  $border;
+  border-bottom-right-radius: $border;
   background-color: $box;
 }
 .side-arc > div {
@@ -409,17 +428,16 @@ hr.jstlong {
 
 footer {
   user-select: none;
-  box-shadow: rgba(105, 54, 54, 0.16) 0px 3px 6px;
-  font-weight: bold;
+box-shadow: 1px 1px 7px 2px rgba(0,0,0,0.40);
   position: sticky;
   bottom: 0%;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: $border;
+  border-top-right-radius: $border;
   color: white;
   text-align: center;
   padding: 20px;
   bottom: 0%;
-
+  margin-right: 10px;
   background-color: $footer;
   margin-top: 4px;
 }
@@ -442,18 +460,19 @@ footer.accent {
 
 .footer {
   user-select: none;
-  box-shadow: rgba(32, 25, 25, 0.986) 10px 3px 10px;
-  font-weight: bold;
+box-shadow: 1px 1px 7px 2px rgba(0,0,0,0.40);
+font-weight: bold;
   position: static;
   bottom: 0%;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: $border;
+  border-top-right-radius: $border;
   color: white;
   text-align: left;
   padding: 20px;
   bottom: 0%;
   background-color: $footer;
   margin-top: 4px;
+  margin-right: 5px;
 }
 
 .sidenav {
@@ -587,7 +606,6 @@ p.ctext {
   /* border-color: #729FCF; */
   // border-radius: 10px;
 }
-
 div.gall {
   display: flex;
   flex-direction: row;
@@ -595,13 +613,14 @@ div.gall {
   /* float: left; */
   width: 100%;
   // border: 1px solid #ccc;
-  border-radius: 20px;
+  border-radius: $border;
   background-color: $accent;
 }
 div.gall img {
   width: 100%;
   /* height: 100%; */
   height: auto;
+  border-radius: $border;
 }
 div.gall * h2 {
   color: $txt-d;
@@ -612,13 +631,39 @@ div.descr {
   padding: 15px;
   text-align: center;
 }
-.art {
+.row {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin: 15px;
 
 }
-img.gflex {
-    margin: 20px;
-  width: 270px;
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  margin: 10px;
+}
+
+.column img {
+  margin-top: 15px;
+  vertical-align: middle;
+  // box-shadow: rgba(-1, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  box-shadow: 1px 1px 7px 2px rgba(0,0,0,0.40);
+  border-style: solid;
+  border-color: $accent;
+}
+.column img:hover {
+  border-radius: 50px;
+  transition: 0.1s;
+  box-shadow: 1px 1px 7px 2px rgba(0,0,0,0.40);
+
 
 }
+img.gf {
+  width: 100%;
+  margin-bottom: 10px;
+  
+}
+
