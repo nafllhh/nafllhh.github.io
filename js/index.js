@@ -1,6 +1,10 @@
 function openNav() {
   document.getElementById("mySidenav").style.width = "365px";
 }
+ function closeul() { 
+  document.getElementById('myUL').style.display = "none";
+
+}
 function closeNav() { document.getElementById("mySidenav").style.width = "0"; }
 function search() {
   var input, filter, ul, li, a, i, txtValue;
